@@ -374,7 +374,7 @@
 	<DeployHardpointsOnFire Value="0" />
 	<ToggleButtonUpInput>
 		<Primary Device="Keyboard" Key="Key_Delete" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_12" />
+		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</ToggleButtonUpInput>
 	<DeployHeatSink>
@@ -527,7 +527,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</OpenCodexGoToDiscovery>
 	<PlayerHUDModeToggle>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_11" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</PlayerHUDModeToggle>
 	<UI_Up>
@@ -1269,11 +1269,11 @@
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSCameraPitch>
 	<ExplorationFSSCameraPitchIncreaseButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Up" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraPitchIncreaseButton>
 	<ExplorationFSSCameraPitchDecreaseButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Down" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraPitchDecreaseButton>
 	<ExplorationFSSCameraYaw>
@@ -1282,19 +1282,19 @@
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSCameraYaw>
 	<ExplorationFSSCameraYawIncreaseButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Right" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraYawIncreaseButton>
 	<ExplorationFSSCameraYawDecreaseButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Left" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraYawDecreaseButton>
 	<ExplorationFSSZoomIn>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_1" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSZoomIn>
 	<ExplorationFSSZoomOut>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSZoomOut>
 	<ExplorationFSSMiniZoomIn>
@@ -1336,11 +1336,11 @@
 	<FSSMouseXDecay Value="1" />
 	<FSSMouseYMode Value="Bindings_MousePitch" />
 	<FSSMouseYDecay Value="1" />
-	<FSSMouseSensitivity Value="5.00000000" />
+	<FSSMouseSensitivity Value="10.00000000" />
 	<FSSMouseDeadzone Value="0.00000000" />
 	<FSSMouseLinearity Value="1.00000000" />
 	<ExplorationFSSTarget>
-		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_2" />
+		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_3" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSTarget>
 	<ExplorationFSSShowHelp>
