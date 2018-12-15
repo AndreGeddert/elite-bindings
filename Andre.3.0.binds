@@ -467,9 +467,9 @@
 	</NightVisionToggle>
 	<UIFocus>
 		<Primary Device="Keyboard" Key="Key_LeftShift" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_8" />
+		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_12" />
 	</UIFocus>
-	<UIFocusMode Value="Bindings_FocusModeHold" />
+	<UIFocusMode Value="Bindings_FocusModeToggle" />
 	<FocusLeftPanel>
 		<Primary Device="Keyboard" Key="Key_1" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -527,7 +527,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</OpenCodexGoToDiscovery>
 	<PlayerHUDModeToggle>
-		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_11" />
+		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_8" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</PlayerHUDModeToggle>
 	<UI_Up>
@@ -1260,25 +1260,25 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalnetAudio_ClearQueue>
 	<ExplorationFSSEnter>
-		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_8" />
+		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_11" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSEnter>
 	<ExplorationFSSCameraPitch>
 		<Binding Device="ThrustMasterTFlightHOTASX" Key="Joy_YAxis" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSCameraPitch>
 	<ExplorationFSSCameraPitchIncreaseButton>
-		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Up" />
+		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Down" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraPitchIncreaseButton>
 	<ExplorationFSSCameraPitchDecreaseButton>
-		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Down" />
+		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Up" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraPitchDecreaseButton>
 	<ExplorationFSSCameraYaw>
-		<Binding Device="ThrustMasterTFlightHOTASX" Key="Joy_XAxis" />
-		<Inverted Value="1" />
+		<Binding Device="ThrustMasterTFlightHOTASX" Key="Joy_RZAxis" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSCameraYaw>
 	<ExplorationFSSCameraYawIncreaseButton>
