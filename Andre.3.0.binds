@@ -878,7 +878,7 @@
 	</RecallDismissShip>
 	<UIFocus_Buggy>
 		<Primary Device="Keyboard" Key="Key_LeftShift" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_8" />
+		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_12" />
 	</UIFocus_Buggy>
 	<FocusLeftPanel_Buggy>
 		<Primary Device="Keyboard" Key="Key_1" />
@@ -1329,7 +1329,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSDiscoveryScan>
 	<ExplorationFSSQuit>
-		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_8" />
+		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_11" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSQuit>
 	<FSSMouseXMode Value="Bindings_MouseYaw" />
@@ -1348,12 +1348,12 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSShowHelp>
 	<ExplorationSAAChangeScannedAreaViewToggle>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</ExplorationSAAChangeScannedAreaViewToggle>
 	<ExplorationSAAExitThirdPerson>
-		<Primary Device="Keyboard" Key="Key_Backspace" />
+		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_11" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationSAAExitThirdPerson>
 	<SAAThirdPersonMouseXMode Value="" />
